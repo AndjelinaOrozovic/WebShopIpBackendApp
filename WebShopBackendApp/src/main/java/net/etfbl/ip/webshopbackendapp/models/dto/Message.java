@@ -9,6 +9,6 @@ public class Message {
     private String content;
     private Boolean isRead;
     private String dateAndTime;
-    private User userAccount;
+    private User idUserAccount;
 
 }

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/messages")
-@CrossOrigin(origins = "httep://localhost:4200/")
+@CrossOrigin(origins = "http://localhost:4200/")
 public class MessageController extends CrudController<Integer, MessageEntity, Message> {
 
     protected MessageController(MessageService messageService) {

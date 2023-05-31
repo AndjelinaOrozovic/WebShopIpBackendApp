@@ -29,6 +29,6 @@ public class MessageEntity implements BaseEntity<Integer> {
 
     @ManyToOne
     @JoinColumn(name = "id_user_account", referencedColumnName = "id", nullable = false)
-    private UserAccountEntity userAccount;
+    private UserAccountEntity idUserAccount;
 
 }
